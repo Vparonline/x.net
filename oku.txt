@@ -1,0 +1,5 @@
+Her şeyi bedava kullanmayın diye 2 ufak hata bıraktım hatalar şunlardır;
+
+Register'e veri postlanıyor, ancak veriler MongoDB'ye kaydedilmiyor. (2 dakikanızı almaz.)
+
+Logout işlemi eksik, üstteki kayıt işlemini tamamladıktan sonra kullanıcı hesabına giriş yaptığınızda, çıkış yapamayacaksınız. (session.destroy)
